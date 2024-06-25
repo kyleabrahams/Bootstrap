@@ -12,6 +12,19 @@
 
 <body>
 
+  <section class="mt-5" alt="Calendly links">
+      <!-- Calendly inline widget begin -->
+      <!-- <div class="calendly-inline-widget" data-url="https://calendly.com/kyleabrahams/30-minute-discovery-call?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
+      <!-- Calendly inline widget end -->
+
+      <!-- Calendly floating BUTTON badge widget begin -->
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+      <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/kyleabrahams/30-minute-discovery-call?hide_gdpr_banner=1', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: undefined }); }</script>
+      <!-- Calendly floating BUTTON badge widget end -->
+  </section>
+
 
 
     <!-- 1. navbars -->
@@ -46,8 +59,7 @@
       </nav>
     </div>
 
-    <main>    
-      <div class="mt-5">
+    <section class="mt-5 pt-5">    
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -503,13 +515,13 @@
               </div>
             </div>
           </div>
-    </div></div></main>
+       </div>
+   </section>
     <!-- navbars -->
 
 
     <!-- 2. buttons -->
-
-    <div class="mt-5">
+    <div class="mt-0">
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -520,55 +532,56 @@
           <div id="collapseTwo" class="accordion-collapse sho collapse" data-bs-parent="#accordionExample" style="">
             <div class="accordion-body">    
 
-            <article class="my-3" id="buttons">
-              <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-                <h3>Buttons</h3>
-                <a class="d-flex align-items-center" href="../components/buttons/">Documentation</a>
-              </div>
-
-              <div>
-                <div class="bd-example">
-                
-                <button type="button" class="btn btn-primary">Primary</button>
-                <button type="button" class="btn btn-secondary">Secondary</button>
-                <button type="button" class="btn btn-success">Success</button>
-                <button type="button" class="btn btn-danger">Danger</button>
-                <button type="button" class="btn btn-warning">Warning</button>
-                <button type="button" class="btn btn-info">Info</button>
-                <button type="button" class="btn btn-light">Light</button>
-                <button type="button" class="btn btn-dark">Dark</button>
-
-                <button type="button" class="btn btn-link">Link</button>
+              <article class="my-3" id="buttons">
+                <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                  <h3>Buttons</h3>
+                  <a class="d-flex align-items-center" href="../components/buttons/">Documentation</a>
                 </div>
 
-                <div class="bd-example">
-                
-                <button type="button" class="btn btn-outline-primary">Primary</button>
-                <button type="button" class="btn btn-outline-secondary">Secondary</button>
-                <button type="button" class="btn btn-outline-success">Success</button>
-                <button type="button" class="btn btn-outline-danger">Danger</button>
-                <button type="button" class="btn btn-outline-warning">Warning</button>
-                <button type="button" class="btn btn-outline-info">Info</button>
-                <button type="button" class="btn btn-outline-light">Light</button>
-                <button type="button" class="btn btn-outline-dark">Dark</button>
-                </div>
+                <div>
+                  <div class="bd-example">
+                  
+                  <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-secondary">Secondary</button>
+                  <button type="button" class="btn btn-success">Success</button>
+                  <button type="button" class="btn btn-danger">Danger</button>
+                  <button type="button" class="btn btn-warning">Warning</button>
+                  <button type="button" class="btn btn-info">Info</button>
+                  <button type="button" class="btn btn-light">Light</button>
+                  <button type="button" class="btn btn-dark">Dark</button>
 
-                <div class="bd-example">
-                <button type="button" class="btn btn-primary btn-sm">Small button</button>
-                <button type="button" class="btn btn-primary">Standard button</button>
-                <button type="button" class="btn btn-primary btn-lg">Large button</button>
-                </div>
-              </div>
-            </article>
+                  <button type="button" class="btn btn-link">Link</button>
+                  </div>
 
+                  <div class="bd-example">
+                  
+                  <button type="button" class="btn btn-outline-primary">Primary</button>
+                  <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                  <button type="button" class="btn btn-outline-success">Success</button>
+                  <button type="button" class="btn btn-outline-danger">Danger</button>
+                  <button type="button" class="btn btn-outline-warning">Warning</button>
+                  <button type="button" class="btn btn-outline-info">Info</button>
+                  <button type="button" class="btn btn-outline-light">Light</button>
+                  <button type="button" class="btn btn-outline-dark">Dark</button>
+                  </div>
+
+                  <div class="bd-example">
+                  <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                  <button type="button" class="btn btn-primary">Standard button</button>
+                  <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+         </div>
         </div>
-      </div>
-   </div>    
+      </div>   
+    </div>   
     <!-- buttons -->
 
     <!-- 3. typography -->
-
-    <div class="mt-5">
+    <div class="mt-0">
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -655,17 +668,14 @@
                 </div>
               </article>
 
+           </div>
          </div>
-      </div>
-     </div>    
+        </div>    
+      </div>    
+    </div>    
     <!-- typography -->
 
-
-
-
-
     <!-- heros -->
-
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
@@ -811,13 +821,15 @@
                 <div class="b-example-divider mb-0"></div>
               </main>
                             
+           </div>
+          </div>
         </div>
-     </div>
+      </div>
     </div>
     <!-- heros -->
 
     <!-- accordion -->
-    <div class="container py-4">
+    <!-- <div class="container py-4">
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -856,7 +868,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- accordion -->
 
 
@@ -1115,16 +1127,6 @@
     </div>
     <!-- jumbotron -->
 
-    <!-- calendly -->
-    <!-- <div class="calendly-inline-widget" data-url="https://calendly.com/kyleabrahams/30-minute-discovery-call" style="position: relative;min-width:320px;height:750px;"></div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script> -->
-
-
-    <!-- Calendly inline widget begin -->
-    <div class="calendly-inline-widget" data-url="https://calendly.com/kyleabrahams/30-minute-discovery-call?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-    <!-- Calendly inline widget end -->
-
     <!-- Footer -->
     <div class="container py-3">
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
@@ -1168,8 +1170,6 @@
     <!-- Footer -->
 
   <script src="js/jquery.min.js"></script>    
-
-</div></div></div></div></div></div>
 
 </body>
 
