@@ -104,7 +104,6 @@
 }
 
 .calendly-badge-widget .calendly-badge-content {
-    background-color: $primary;
     display: table-cell;
     width: auto;
     height: 48px;
